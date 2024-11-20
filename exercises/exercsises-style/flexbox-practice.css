@@ -1,0 +1,176 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+/* Example 12a */
+.item1a {
+    width: 200px;
+}
+
+.item2a {
+    width: 75px;
+}
+
+/* Example 12b */
+.item1b {
+    width: 50px;
+}
+
+.item2b {
+    flex: 1;
+}
+
+.item3b {
+    width: 75px;
+}
+
+/* Example 12c */
+.flexbox-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Example 12d */
+.flexbox-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: solid 1px rgb(150, 150, 150);
+    margin-top: 30px;
+}
+
+/* Example 12e */
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 6px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.flexbox-e {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+}
+
+.notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+/* Example 12f */
+.container-b {
+    background-color: rgb(120, 82, 178);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial;
+    margin-top: 30px;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.search {
+    width: 500px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.download {
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border: solid 1px white;
+    border-radius: 2px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Example 12g */
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.twitter-container {
+    margin-top: 30px;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.profile-info {
+    width: 200px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.handle{
+    color: rgb(150, 150, 150);
+    margin-bottom: 5px;
+}
+
+.category {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+
+.follow-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}

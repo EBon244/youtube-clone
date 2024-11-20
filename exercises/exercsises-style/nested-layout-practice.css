@@ -1,0 +1,60 @@
+/* exercise 10e */
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.facebook-add-friend {
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.facebook-profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.mutual-friend-row {
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.mutual-friend-pic {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.mutual-friends {
+    color: rgb(100, 100, 100);
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.add-friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

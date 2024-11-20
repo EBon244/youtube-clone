@@ -1,0 +1,179 @@
+body {
+    height: 3000px;
+}
+
+/* example 14a */
+.bottom-right {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* example 14b */
+.right-sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+}
+
+/* example 14c */
+.cover {
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* example 14d */
+.cover-d {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.sub-text {
+    margin-bottom: 12px
+}
+
+/* example 14e */
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 50px;
+    font-family: Arial;
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.message-button {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+/* example 14f */
+.discord {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.discord-left-section {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.discord-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.discord-right-section {
+    background-color: rgb(55, 55, 55);
+    width:150px;
+    font-family: Arial;
+    color: rgb(150, 150, 150);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.discord-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: white;
+    font-size: 14px;
+}
+
+.create-new {
+    font-size: 25px;
+}
+
+.channel {
+    margin-bottom: 16px;
+}

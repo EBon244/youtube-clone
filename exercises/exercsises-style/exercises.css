@@ -1,0 +1,225 @@
+/* Exercises 1-4
+Button styling */
+
+/* Uber */
+.uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: opacity .15s;
+}
+
+.uber-button:hover {
+    opacity: .8;
+}
+
+/* Github */
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow .15s;
+}
+
+.github-button:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);
+}
+
+/* Bootstrap get started*/
+.get-started-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: background-color .15s;
+}
+
+.get-started-button:hover {
+    background-color: rgb(99, 60, 156)
+}
+
+/* Bootstrap download */
+.download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: solid rgb(108, 117, 125) 1px;
+    padding: 12px 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .15, color .15s;
+}
+
+.download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+/* LinkedIn apply */
+.apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color .15s;
+}
+
+.apply-button:hover {
+    background-color: rgb(2, 70, 138);
+}
+
+/* LinkedIn save */
+.save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: solid rgb(10, 102, 194) 1px;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color .15s,
+        border-width .15s;
+}
+
+.save-button:hover {
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+}
+
+/* Amazon link */
+.amazon-link {
+    color: rgb(0, 113, 133);
+}
+
+.amazon-link:hover {
+    color: rgb(199, 81, 31);
+}
+
+/* Amazon tite */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Amazon Price */
+.price {
+    color: rgb(0, 136, 0);
+    font-weight: bold;
+}
+
+/* Amazon add to cart */
+.add-to-cart-button {
+    background-color: rgb(249, 217, 76);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background-color: rgb(247, 202, 0);
+}
+
+.add-to-cart-button:active {
+    opacity: .5;
+}
+
+/* Amazon buy now */
+.buy-now-button {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.buy-now-button:hover {
+    background-color: rgb(250, 137, 0);
+}
+
+.buy-now-button:active {
+    opacity: .5;
+}
+
+/* Box Model Styling */
+.back-button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+}
+
+.next-button {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+        margin 0.15s;
+}
+
+.stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.shadow-button {
+    background-color: rgb(26, 119, 14);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+}
+
+.shadow-button:active {
+    box-shadow: none;
+    margin: 3px 3px;
+}

@@ -1,0 +1,171 @@
+/* exercise 9a */
+.square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+/* exercise 9b */
+.circle {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+/* exercise 9c */
+.service-review {
+    border: solid 1px rgb(150, 150, 150);
+    padding-left: 15px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.title {
+    font-family: Arial;
+}
+
+/* exercise 9d */
+
+.card {
+    background-color: rgb(33, 33, 33);
+    width: 360px;
+    padding: 20px 15px;
+}
+
+.install-text {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.add-text {
+    font-family: Arial;
+    color: rgb(160, 160, 160);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* exercise 9e */
+.tweet {
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 6px;
+    padding: 12px 12px;
+    width: 450px
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.tweet-search {
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+
+/* exercise 9f */
+
+.facebook-add-friend {
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    margin-right: 15px;
+}
+
+.facebook-profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.user-name {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.mutual-friends {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.add-friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* exercise 9g */
+/* same as above */
+
+/* exercise 9h */
+.google-screen {
+    text-align: center;
+}
+
+.google-logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.google-search {
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.search-button {
+    background-color: rgb(245, 245, 245);
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lucky-button {
+    background-color: rgb(245, 245, 245);
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
